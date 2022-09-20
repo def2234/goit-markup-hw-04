@@ -14,6 +14,8 @@
   --secondary-background-color: #f5f4fa;
   --secondary-background-studio: #2f303a;
   --secondary-text-color: #000000;
+  --icon-color: #afb1b8;
+  --header-border-color: #ececec;
 }
 
 .container {
@@ -28,7 +30,7 @@
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 h1,
@@ -421,7 +423,7 @@ body {
 .icon-team {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 .social-wrapper {
@@ -470,8 +472,9 @@ body {
 }
 
 .partners-links {
+  fill: var(--icon-color);
   display: block;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -482,7 +485,6 @@ body {
 }
 
 .icon-partners {
-  fill: #afb1b8;
   width: 106px;
   height: 60px;
 }
